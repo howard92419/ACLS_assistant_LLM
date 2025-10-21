@@ -26,6 +26,7 @@ ACLS Assistant CLI 是一個命令行工具，旨在協助到院前急救人員�
 您可以使用 `requirements.txt` 檔案來安裝所有依賴：
 ```bash
 pip install -r requirements.txt
+```
 
 ## 快速開始
 
@@ -35,6 +36,8 @@ pip install -r requirements.txt
 
 ```dotenv
 OPENAI_API_KEY="YOUR_API_KEY_HERE"
+```
+
 
 如果未設定 `OPENAI_API_KEY`，系統將無法使用智能解析功能。
 
@@ -44,6 +47,7 @@ OPENAI_API_KEY="YOUR_API_KEY_HERE"
 
 ```bash
 python main.py
+```
 
 ### 3. CLI 指令
 
@@ -59,7 +63,7 @@ python main.py
 | `help` / `h` / `?` | 顯示可用指令。 |
 | `exit` / `quit` / `q` | 結束程式。 |
 
-## 專案結構
+### 4. 專案結構
 
 | 檔案名稱 | 說明 |
 | :--- | :--- |
